@@ -1,1 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Despacho Contable Fiscal Gubernamental De La Fuente</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0d0d0d;
+      color: #f4f1e8;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #111111, #242424);
+      padding: 70px 20px;
+      text-align: center;
+      border-bottom: 2px solid #b9975b;
+    }
+
+    header h1 {
+      color: #d6b66c;
+      font-size: 2.2rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: #e6e6e6;
+    }
+
+    .frase {
+      margin-top: 25px;
+      color: #ffffff;
+      font-style: italic;
+      font-size: 1.05rem;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 55px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #d6b66c;
+      margin-bottom: 35px;
+      font-size: 1.8rem;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 850px;
+      margin: auto;
+      color: #dddddd;
+      font-size: 1.05rem;
+    }
+
+    .contadores {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .tarjeta {
+      background: #181818;
+      border: 1px solid #4b4b4b;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    }
+
+    .iniciales {
+      width: 75px;
+      height: 75px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      border: 2px solid #d6b66c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #d6b66c;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    .tarjeta h3 {
+      color: #ffffff;
+      margin-bottom: 10px;
+      font-size: 1.15rem;
+    }
+
+    .tarjeta p {
+      color: #cfcfcf;
+      font-size: 0.95rem;
+    }
+
+    .servicios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .servicio {
+      background: #181818;
+      border-left: 4px solid #d6b66c;
+      padding: 25px;
+      border-radius: 8px;
+    }
+
+    .servicio h3 {
+      color: #d6b66c;
+      margin-bottom: 8px;
+    }
+
+    .experiencia {
+      max-width: 900px;
+      margin: auto;
+      background: #181818;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #444;
+    }
+
+    .experiencia ul {
+      padding-left: 22px;
+      color: #dddddd;
+    }
+
+    .experiencia li {
+      margin-bottom: 12px;
+    }
+
+    .contacto {
+      text-align: center;
+    }
+
+    .datos {
+      margin: 25px auto;
+      max-width: 700px;
+      color: #dddddd;
+    }
+
+    .botones {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 25px;
+    }
+
+    .boton {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 7px;
+      background: #d6b66c;
+      color: #111111;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .boton:hover {
+      background: #f0d58c;
+    }
+
+    footer {
+      background: #080808;
+      border-top: 1px solid #444;
+      text-align: center;
+      padding: 30px 20px;
+      color: #999999;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.65rem;
+      }
+
+      section {
+        padding: 40px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Despacho Contable Fiscal Gubernamental De La Fuente</h1>
+    <p>Asesoría profesional para sus decisiones contables, fiscales y administrativas</p>
+    <div class="frase">“Confianza que orienta. Solidez que respalda.”</div>
+  </header>
+
+  <section>
+    <h2>Sobre el despacho</h2>
+    <p class="intro">
+      Brindamos atención profesional en materia contable, fiscal, gubernamental,
+      patrimonial y de gestión, ofreciendo soluciones responsables y
+      acompañamiento cercano para personas y organizaciones.
+    </p>
+  </section>
+
+  <section>
+    <h2>Nuestros contadores</h2>
+
+    <div class="contadores">
+
+      <div class="tarjeta">
+        <div class="iniciales">HF</div>
+        <h3>C.P. Hilario Flores de la Fuente</h3>
+        <p>
+          Profesional dedicado al registro, control y análisis de operaciones
+          contables, así como al cumplimiento de obligaciones fiscales y
+          administrativas.
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <div class="iniciales">CM</div>
+        <h3>C.P. Carlos Alfredo Martínez de la Fuente</h3>
+        <p>
+          Profesional orientado a la atención contable, fiscal, patrimonial
+          y de gestión, con enfoque responsable y personalizado.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Nuestros servicios</h2>
+
+    <div class="servicios">
+
+      <div class="servicio">
+        <h3>Asesoría</h3>
+        <p>
+          Orientación profesional para la toma de decisiones contables,
+          fiscales y administrativas.
+        </p>
+      </div>
+
+      <div class="servicio">
+        <h3>Contabilidad</h3>
+        <p>
+          Registro y control de operaciones contables, declaraciones y
+          cumplimiento de obligaciones fiscales.
+        </p>
+      </div>
+
+      <div class="servicio">
+        <h3>Bienes</h3>
+        <p>
+          Atención y orientación relacionada con bienes, patrimonio y
+          procedimientos administrativos.
+        </p>
+      </div>
+
+      <div class="servicio">
+        <h3>Gestiones</h3>
+        <p>
+          Acompañamiento y apoyo en trámites y gestiones ante las
+          instancias correspondientes.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Experiencia profesional</h2>
+
+    <div class="experiencia">
+      <ul>
+        <li>
+          Responsable del registro y control de operaciones contables diarias,
+          garantizando el cumplimiento de las normas financieras y fiscales
+          vigentes en México.
+        </li>
+
+        <li>
+          Elaboración de declaraciones mensuales y anuales ante el SAT,
+          determinación de impuestos y presentación oportuna.
+        </li>
+
+        <li>
+          Gestión y seguimiento de obligaciones fiscales y administrativas.
+        </li>
+
+        <li>
+          Análisis y control de información financiera para apoyar la toma
+          de decisiones.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contacto">
+    <h2>Contacto</h2>
+
+    <div class="datos">
+      <p><strong>Dirección:</strong><br>
+      Privada de Guadalupe No. 09,<br>
+      San Pablo Apetatitlán, Tlaxcala.</p>
+
+      <br>
+
+      <p><strong>Horario de atención:</strong><br>
+      Lunes a viernes: 09:00 – 17:00 hrs.<br>
+      Sábados: 10:00 – 14:00 hrs.</p>
+
+      <br>
+
+      <p><strong>Teléfono:</strong> 222 324 5918</p>
+    </div>
+
+    <div class="botones">
+
+      <a class="boton"
+         href="tel:+522223245918">
+        📞 Llamar
+      </a>
+
+      <a class="boton"
+         href="mailto:hfflores75@gmail.com">
+        ✉️ Correo Hilario
+      </a>
+
+      <a class="boton"
+         href="mailto:contadorcarlosmtzfte@gmail.com">
+        ✉️ Correo Carlos
+      </a>
+
+      <a class="boton"
+         href="https://www.google.com/maps/search/?api=1&query=Privada+de+Guadalupe+09+San+Pablo+Apetatitlán+Tlaxcala"
+         target="_blank">
+        📍 Ubicación
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Despacho Contable Fiscal Gubernamental De La Fuente
+    <br>
+    Atención profesional y personalizada.
+  </footer>
+
+</body>
+</html>
